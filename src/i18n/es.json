@@ -1,0 +1,42 @@
+{
+  "login": "Iniciar sesion",
+  "users": {
+    "view_details": "Ver detalle",
+    "rol": {
+      "admin": "administrador",
+      "user": "usuario"
+    },
+    "status": {
+      "active": "activo",
+      "inactive": "inactivo"
+    },
+    "list": "Lista de Usuarios",
+    "create": "Crear Usuario",
+    "detail": "Detalle del Usuario",
+    "edit": "Editar Usuario",
+    "back": "Volver a Usuarios",
+    "name": "Nombre",
+    "user": "Nombre de Usuario",
+    "pass": "Contraseña",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "validation": {
+      "no_data": "No hay datos de usuario o ID disponibles para actualizar",
+      "fields_empty": "Los campos de nombre, nombre de usuario y contraseña no pueden estar vacíos.",
+      "password_length": "La contraseña debe tener entre 3 y 15 caracteres.",
+      "username_format": "El nombre de usuario debe ser solo letras, sin espacios y de más de 3 caracteres."
+    }
+  },
+  "news": {
+    "list": "Resumen de Noticias",
+    "more": "Leer más",
+    "detail": {
+      "date": "Fecha",
+      "go": "ir a la noticia"
+    }
+  },
+  "titles": {
+    "users": "Usuarios",
+    "news": "Noticias"
+  }
+}

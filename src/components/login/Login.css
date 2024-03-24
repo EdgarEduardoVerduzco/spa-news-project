@@ -1,0 +1,77 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.login-header-image {
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+.login-card {
+    max-width: 300px;
+    margin: auto;
+    background-image: linear-gradient(#F3F596, #fffbe6);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+
+.login-info {
+    padding: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="checkbox"] + label {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-button, .delete-button {
+    width: 100%;
+    text-decoration: none;
+    color: #ECEFA4;
+    background-color: #2C5934;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover, .delete-button:hover {
+    background-color: #2C5934
+}
+
+.login-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    border: 0.5px solid black;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-info {
+    padding: 0;
+}

@@ -1,0 +1,41 @@
+{
+  "login": "Login",
+  "users": {
+    "view_details": "View details",
+    "rol": {
+      "admin": "admin",
+      "user": "user"
+    },
+    "status": {
+      "active": "active",
+      "inactive": "inactive"
+    },
+    "list": "Users List",
+    "create": "Create User",
+    "detail": "User Detail",
+    "edit": "Edit User",
+    "name": "Name",
+    "user": "Username",
+    "pass": "Password",
+    "save": "Save",
+    "delete": "Delete",
+    "validation": {
+      "no_data": "No user data or ID available for updating",
+      "fields_empty": "Name, username, and password fields cannot be empty.",
+      "password_length": "Password must be between 3 and 15 characters.",
+      "username_format": "Username must be only letters, no spaces, and more than 3 characters."
+    }
+  },
+  "news": {
+    "list": "News summary",
+    "more": "read more",
+    "detail": {
+      "date": "Date",
+      "go": "go to the news"
+    }
+  },
+  "titles": {
+    "users": "Users",
+    "news": "News"
+  }
+}

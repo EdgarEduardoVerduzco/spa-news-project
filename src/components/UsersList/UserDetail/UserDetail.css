@@ -1,0 +1,101 @@
+.user-detail-container {
+    max-width: 600px;
+    margin: 12rem auto 40px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.user-detail-card {
+    /*background-image: linear-gradient(#F3F596, #fffbe6);*/
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    padding-top: 120px;
+    display: grid;
+    gap: 10px;
+}
+
+
+.user-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    border: 0.5px solid black;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.user-info {
+    padding: 20px;
+}
+
+input[type="text"], input[type="checkbox"] + label {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.user-link-container {
+    width: 100%;
+}
+
+.user-link {
+    text-decoration: none;
+    color: #2C5934;
+    background-color: #F3F596;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+    transition: background-color 0.3s ease;
+}
+
+.user-link:hover {
+    background-color: #ECEFA4;
+}
+
+.save-button {
+    width: 100%;
+    text-decoration: none;
+    /*color: #ECEFA4;*/
+    /*background-color: #2C5934;*/
+    color: #2C5934;
+    background-color: #ECEFA4;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-button {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: #c34933;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save-button:hover {
+    /*background-color: #2C5934;*/
+    background-color: #ECEFA4;
+}

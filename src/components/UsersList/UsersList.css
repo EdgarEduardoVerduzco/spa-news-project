@@ -1,0 +1,111 @@
+
+.user-list-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px 20px;
+}
+
+.user-list-title {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    color: #2C5934;
+}
+
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.user-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+
+.user-content {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: start;
+}
+
+.user-image-container {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-imagen {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-details {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 0 16px;
+}
+
+.user-name, .user-status {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.user-link-container {
+    grid-row: 2;
+    width: 100%;
+}
+
+.user-link {
+    text-decoration: none;
+    color: #2C5934;
+    background-color: #F3F596;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+    transition: background-color 0.3s ease;
+}
+
+.user-link:hover {
+    background-color: #ECEFA4;
+}
+
+.user-status, .user-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.status-icon, .role-icon {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fab-button {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    background-color: #F3F596;
+    color: #2C5934;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fab-button:hover {
+    background-color: #ECEFA4;
+}
